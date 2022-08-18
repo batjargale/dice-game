@@ -72,7 +72,7 @@ document.querySelector(".btn-hold").addEventListener("click", function () {
     // Цуглуулсан оноог үндсэн оноо дээр нэмж өгнө.
     scores[activePlayer] = scores[activePlayer] + roundScore;
     // Уг тоглогч хожсон эсэхийг шалгах буюу 100 оноог хүрсэн эсэх
-    if (scores[activePlayer] >= 10) {
+    if (scores[activePlayer] >= 100) {
       isNewGame = false;
       document.getElementById("name-" + activePlayer).textContent =
         "WINNER !!!";
